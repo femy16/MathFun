@@ -1,14 +1,14 @@
- function mute(){
-     //alert("helooooo")
-              if(document.getElementById('background_audio').muted == false){
-                // alert("false") 
-                document.getElementById('background_audio').muted = true;
-              } else {
-                 // alert("true") 
-                document.getElementById('background_audio').muted = false;
-              }
+//  function mute(){
+//      //alert("helooooo")
+//               if(document.getElementById('background_audio').muted == false){
+//                 // alert("false") 
+//                 document.getElementById('background_audio').muted = true;
+//               } else {
+//                  // alert("true") 
+//                 document.getElementById('background_audio').muted = false;
+//               }
 
-    }
+//     }
 let score = 0;
 let scorebox = document.getElementById("score");
 let questionbox = document.getElementById("question");
