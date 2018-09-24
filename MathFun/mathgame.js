@@ -1,15 +1,43 @@
- function mute(){
-     //alert("helooooo")
-              if(document.getElementById('background_audio').muted == false){
-                // alert("false") 
-                document.getElementById('background_audio').muted = true;
-              } else {
-                 // alert("true") 
-                document.getElementById('background_audio').muted = false;
-              }
-
+let backgroundMusic;
+let muteBtn
+function playMusic() {
+    backgroundMusic = new Audio();
+    backgroundMusic.src = "bensound-littleidea.mp3";
+    backgroundMusic.volume = 0.5;
+    backgroundMusic.pause();
+    muteBtn = document.getElementById('mute-music');
+    muteBtn.addEventListener('click', mute);
+    
+    function mute() {
+        if (backgroundMusic.paused == true) {
+            backgroundMusic.play();
+            backgroundMusic.loop = true;
+            muteBtn.innerHTML = "stop music";
+        }
+        else {
+            backgroundMusic.pause();
+            muteBtn.innerHTML = "play music";
+        }
     }
+}
+ 
+window.addEventListener('load', playMusic);
+ 
+//  function mute(){
+//      //alert("helooooo")
+//               if(document.getElementById('background_audio').muted == false){
+//                 // alert("false") 
+//                 document.getElementById('background_audio').muted = true;
+//               } else {
+//                  // alert("true") 
+//                 document.getElementById('background_audio').muted = false;
+//               }
+
+//     }
 let score = 0;
+
+
+
 let scorebox = document.getElementById("score");
 let questionbox = document.getElementById("question");
 let answerform = document.getElementById("myForm");
