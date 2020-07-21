@@ -1,18 +1,11 @@
+# Starter Maths Game
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This maths game is used in the classroom to teach the basics of JavaScript.
 
+The students' challenge is to get the other two games working, and to style it.
 
-Hi there! Welcome to Cloud9 IDE!
+## BONUS CHALLENGES
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+Add a timer to the project
+Add a division game that requires whole numbers as answers
+Add a high-score chart for people who get the most answers right in the time available

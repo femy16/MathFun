@@ -1,0 +1,54 @@
+body {
+    background-image: url(M3.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Schoolbell', cursive;
+}
+
+h1 {
+    color: red;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+#addbtn{
+    background-color: purple;
+}
+#subbtn{
+    background-color: orange;
+}
+#mulbtn{
+    background-color: blue;
+}
+.btnClass {
+    background-color: #00ff00;
+    /* Green */
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 30%;
+}
+p{
+    color: #f441bb;
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    font-family: 'Schoolbell', cursive;
+    font-size: 30px;
+    padding-top: 20px;
+    /*padding-left: 200px;*/
+    position: relative;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
